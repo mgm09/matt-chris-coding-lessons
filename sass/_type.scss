@@ -1,0 +1,7 @@
+%bodytext{
+	font-family: 'Abel', sans-serif;
+}
+//anything that extends body text will pull code in from above
+body {
+	@extend %bodytext;
+}

@@ -1,198 +1,247 @@
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
-
+/* line 3, ../sass/main.scss */
 html {
-    color: #222;
-    font-size: 1em;
-    line-height: 1.4;
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
 }
 
+/* line 9, ../sass/main.scss */
 ::-moz-selection {
-    background: #b3d4fc;
-    text-shadow: none;
+  background: #b3d4fc;
+  text-shadow: none;
 }
 
+/* line 14, ../sass/main.scss */
 ::selection {
-    background: #b3d4fc;
-    text-shadow: none;
+  background: #b3d4fc;
+  text-shadow: none;
 }
 
+/* line 19, ../sass/main.scss */
 hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
 }
 
+/* line 28, ../sass/main.scss */
 audio,
 canvas,
 iframe,
 img,
 svg,
 video {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
+/* line 37, ../sass/main.scss */
 fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0;
+  border: 0;
+  margin: 0;
+  padding: 0;
 }
 
+/* line 43, ../sass/main.scss */
 textarea {
-    resize: vertical;
+  resize: vertical;
 }
 
+/* line 47, ../sass/main.scss */
 .browserupgrade {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
 }
-
 
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/* line 1, ../sass/_type.scss */
+body {
+  font-family: 'Abel', sans-serif;
+}
 
+/* line 1, ../sass/_header.scss */
+header {
+  background-color: #DFC6A8;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+/* line 10, ../sass/_header.scss */
+header img {
+  margin-left: 8.4507%;
+  float: left;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+/* line 16, ../sass/_header.scss */
+nav {
+  float: right;
+  margin-right: 8.4507%;
+  font-size: 25px;
+  color: white;
+  line-height: 50px;
+}
+/* line 22, ../sass/_header.scss */
+nav a {
+  color: white;
+  text-decoration: none;
+}
+/* line 25, ../sass/_header.scss */
+nav a:hover {
+  color: grey;
+}
+/* line 29, ../sass/_header.scss */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 34, ../sass/_header.scss */
+nav li {
+  float: left;
+  margin-left: 52px;
+}
+/* line 37, ../sass/_header.scss */
+nav li:first-child {
+  margin-left: 0;
+}
 
 /* ==========================================================================
    Media Queries
    ========================================================================== */
-
-@media only screen and (min-width: 35em) {
-
-}
-
-@media print,
-       (-o-min-device-pixel-ratio: 5/4),
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 120dpi) {
-
-}
-
 /* ==========================================================================
    Helper classes
    ========================================================================== */
-
+/* line 101, ../sass/main.scss */
 .hidden {
-    display: none !important;
-    visibility: hidden;
+  display: none !important;
+  visibility: hidden;
 }
 
+/* line 106, ../sass/main.scss */
 .visuallyhidden {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
 }
 
+/* line 117, ../sass/main.scss */
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
-    clip: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    position: static;
-    width: auto;
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
 }
 
+/* line 127, ../sass/main.scss */
 .invisible {
-    visibility: hidden;
+  visibility: hidden;
 }
 
+/* line 131, ../sass/main.scss */
 .clearfix:before,
 .clearfix:after {
-    content: " ";
-    display: table;
+  content: " ";
+  display: table;
 }
 
+/* line 137, ../sass/main.scss */
 .clearfix:after {
-    clear: both;
+  clear: both;
 }
 
+/* line 141, ../sass/main.scss */
 .clearfix {
-    *zoom: 1;
+  *zoom: 1;
 }
 
 /* ==========================================================================
    Print styles
    ========================================================================== */
-
 @media print {
-    *,
-    *:before,
-    *:after {
-        background: transparent !important;
-        color: #000 !important;
-        box-shadow: none !important;
-        text-shadow: none !important;
-    }
+  /* line 150, ../sass/main.scss */
+  *,
+  *:before,
+  *:after {
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
 
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
+  /* line 159, ../sass/main.scss */
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
 
-    a[href]:after {
-        content: " (" attr(href) ")";
-    }
+  /* line 164, ../sass/main.scss */
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
 
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
+  /* line 168, ../sass/main.scss */
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
 
-    a[href^="#"]:after,
-    a[href^="javascript:"]:after {
-        content: "";
-    }
+  /* line 172, ../sass/main.scss */
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+    content: "";
+  }
 
-    pre,
-    blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-    }
+  /* line 177, ../sass/main.scss */
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
 
-    thead {
-        display: table-header-group;
-    }
+  /* line 183, ../sass/main.scss */
+  thead {
+    display: table-header-group;
+  }
 
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
+  /* line 187, ../sass/main.scss */
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
 
-    img {
-        max-width: 100% !important;
-    }
+  /* line 192, ../sass/main.scss */
+  img {
+    max-width: 100% !important;
+  }
 
-    p,
-    h2,
-    h3 {
-        orphans: 3;
-        widows: 3;
-    }
+  /* line 196, ../sass/main.scss */
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
 
-    h2,
-    h3 {
-        page-break-after: avoid;
-    }
+  /* line 203, ../sass/main.scss */
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
 }

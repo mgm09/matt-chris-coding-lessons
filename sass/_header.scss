@@ -1,0 +1,41 @@
+header {
+    background-color: $gold;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left:0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    img {
+    	margin-left: span(1) + gutter();
+    	float: left;
+    }
+}
+
+nav {
+	float: right;
+	margin-right: span(1) + gutter();
+	font-size: 25px;
+	color: white;
+	line-height: 50px;
+	a {
+		color: white;
+		text-decoration: none;
+		&:hover {
+			color: grey;
+		}
+	}
+	ul{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
+	li{
+		float: left;
+		margin-left: 52px;
+		&:first-child {
+			margin-left: 0;
+		}
+	}
+}
