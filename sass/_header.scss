@@ -16,14 +16,14 @@ header {
 nav {
 	float: right;
 	margin-right: span(1) + gutter();
-	font-size: 25px;
+	font-size: 15px;
 	color: white;
 	line-height: 50px;
 	a {
 		color: white;
 		text-decoration: none;
 		&:hover {
-			color: grey;
+			color: $grey;
 		}
 	}
 	ul{

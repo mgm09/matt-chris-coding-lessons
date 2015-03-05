@@ -86,7 +86,7 @@ header img {
 nav {
   float: right;
   margin-right: 8.4507%;
-  font-size: 25px;
+  font-size: 15px;
   color: white;
   line-height: 50px;
 }
@@ -97,7 +97,7 @@ nav a {
 }
 /* line 25, ../sass/_header.scss */
 nav a:hover {
-  color: grey;
+  color: #1B1C1F;
 }
 /* line 29, ../sass/_header.scss */
 nav ul {
